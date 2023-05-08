@@ -1,0 +1,23 @@
+{
+  "name": "web-spring-23",
+  "version": "1.0.0",
+  "description": "2023 Spring Homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sefamalkoc/web-spring-23.git"
+  },
+  "author": "sefamalkoc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sefamalkoc/web-spring-23/issues"
+  },
+  "homepage": "https://github.com/sefamalkoc/web-spring-23#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
