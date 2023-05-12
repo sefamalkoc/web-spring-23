@@ -22,7 +22,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Giriş <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Giriş </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="sehrim.html">Şehrim</a>
@@ -31,49 +31,15 @@
               <a class="nav-link" href="mirasımız.html">Mirasımız</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="ilgi.html">İlgi alanları</a>
+              <a class="nav-link" href="ilgi.html">İlgi alanları<span class="sr-only">(current)</span></a>
             </li>
-          </ul>
+         </ul>
         </div>
       </nav>
       <!-- Navbar End -->
 
-      <div class="main-page">
-
-        <div class="container">
-          <div class="row">
-            <div class="col-sm title">
-              <h1>Hoş geldiniz!</h1>
-            </div>
-            <div class="col-sm info">
-              <p class="date"></p>
-            </div>
-          </div>
-          <div class="row">
-            
-          </div>
-        </div>
-
-      </div>
-
-    <script>
-
-      function sayfaYuklendi() {
-        const date = new Date();
-        // Çarşamba 10 May 2023
-        const ayarlar = { weekday: 'long', day: 'numeric', month: 'short', year: 'numeric' };
-        var dateElement = document.getElementsByClassName("date")[0];
-        var tarih = date.toLocaleDateString("tr-TR", ayarlar);
-        
-        dateElement.innerHTML = tarih;
-        console.log("Tarih sayfaya yazdırıldı.")
-      }
-
-
-    </script>
-
-    <!-- Bootstrap Javascript-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+<!-- Bootstrap Javascript-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
 </html>
