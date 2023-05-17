@@ -15,7 +15,7 @@
     
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-sm navbar-dark">
-        <a class="navbar-brand" href="#">Sefa Malkoc</a>
+        <a class="navbar-brand" href="#">Sefa Malkoç</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -41,39 +41,9 @@
       </nav>
       <!-- Navbar End -->
 
-      <div class="main-page">
-
-        <div class="container">
-          <div class="row">
-            <div class="col-sm title">
-              <h1>Hoş geldiniz!</h1>
-            </div>
-            <div class="col-sm info">
-              <p class="date"></p>
-            </div>
-          </div>
-          <div class="row">
-            
-          </div>
+      <div class="boyutlandirma">
+        <img src="image/resim10.jpg" />
         </div>
-
-      </div>
-
-    <script>
-
-      function sayfaYuklendi() {
-        const date = new Date();
-        // Çarşamba 10 May 2023
-        const ayarlar = { weekday: 'long', day: 'numeric', month: 'short', year: 'numeric' };
-        var dateElement = document.getElementsByClassName("date")[0];
-        var tarih = date.toLocaleDateString("tr-TR", ayarlar);
-        
-        dateElement.innerHTML = tarih;
-        console.log("Tarih sayfaya yazdırıldı.")
-      }
-
-
-    </script>
 
     <!-- Bootstrap Javascript-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

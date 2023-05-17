@@ -48,8 +48,22 @@
 }
 .slider.slider-horizontal .slider-track {
     width: 80px;
-    height: 20px;
+    height: 40px;
 }
 .blog-title {
+    text-align: center;
+}
+.yer-isimleri{
+    margin-left: 40px;
+}
+h1 {
+    text-shadow: 1px 1px 1px blue; /* yatay gölge,dikey gölge,renk ve dağılım */
+  }div 
+p{
+    margin: 30px;
+} 
+.col-30{
+    width: 30%;
+    display: inline-block;
     text-align: center;
 }
