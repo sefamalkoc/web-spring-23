@@ -58,12 +58,24 @@
 }
 h1 {
     text-shadow: 1px 1px 1px blue; /* yatay gölge,dikey gölge,renk ve dağılım */
-  }div 
-p{
-    margin: 30px;
+  }
+.yazi{
+    margin-left: 20px;
+    margin-right: 20px;
 } 
 .col-30{
     width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+.col-25{
+    width: 25%;
+    display: inline-block;
+    text-align: left;
+   
+}
+.col-60{
+    width: 60%;
     display: inline-block;
     text-align: center;
 }
