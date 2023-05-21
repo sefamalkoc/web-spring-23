@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css"
   </head>
   <body onload="sayfaYuklendi()">
     
@@ -30,33 +31,30 @@
             <li class="nav-item">
               <a class="nav-link" href="mirasımız.html">Mirasımız</a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="ilgi.html">İlgi alanları<span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="ilgi.html">İlgi alanları</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="özgecmis.html">Özgeçmiş</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="iletisim.html">İletişim</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="iletisim.html">İletişim<span class="sr-only">(current)</span></a>
           </li>
          </ul>
         </div>
       </nav>
       <!-- Navbar End -->
-    <h1>Filmler</h1>
-    <p>Boş zamanlarımda en çok da film izlemeyi severim.En çok beğendiğim filmler sırasıyla şunşardır:</p><br>
-  <div class="yanyanaresim">
-    <img src="image/inception.jpg" alt="">
-    <img src="image/Fight.jpeg" alt="">
-    <img src="image/yüzük.jpg" alt="">
-    <img src="image/harry.jpg" alt="">
-    <img src="image/görevimiz.jpg" alt="">
-    <img src="image/karayip.jpg" alt="">
 
-  </div>
-  
-    
+      <div class="iletisim_formu" >
+            <form action="" method="POST">
+                <input type="text" placeholder="Adınız ve soyadınız" required=""><br>
+                <input type="email" placeholder="E-postaa adresiniz" required=""><br>
+                <input type="text" placeholder="Konu" required=""><br>
+                <textarea name="" placeholder="Mesajınız"></textarea><br>
+                <button>Gönder</button>
+            </form>    
 
+      </div>
 
 <!-- Bootstrap Javascript-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
